@@ -1,0 +1,14 @@
+<h1 style="color:bisque">
+  My First Calculator application in Ang 4
+ </h1>  
+ 
+ <input [(ngModel)]='num1' type="number" name="num1" placeholder="Enter Num 1"> 
+ <input [(ngModel)]='num2' type="number" name="num1" placeholder="Enter Num 2">
+ <br/>
+ <br/>
+ <button (click)='Add()'> + </button>
+ <button (click)='Sub()'> - </button>
+ <button (click)='Mul()'> * </button>
+ <button (click)='Div()'> / </button>
+ 
+ <h1 style="color:bisque"> {{result}} </h1>
